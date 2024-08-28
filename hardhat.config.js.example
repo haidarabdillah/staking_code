@@ -1,0 +1,15 @@
+require("@nomiclabs/hardhat-waffle");
+
+module.exports = {
+  solidity: {
+    compilers: [{ version: "0.8.17" }],
+  },
+  networks: {
+    dev: {
+      url: "https://rpc.ankr.com/polygon_mumbai",
+      chainId: 1503,
+      gasPrice: 300000000,
+      accounts: [""],
+    },
+  },
+};
