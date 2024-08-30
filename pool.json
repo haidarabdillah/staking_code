@@ -1,0 +1,35 @@
+[
+ {
+    sousId: 1,
+    stakingToken: spcTokens.city,
+    earningToken: spcTokens.city,
+    contractAddress: {
+      575757: '0xf2FB0649dec00b79130923AdF2e9B518Bdd97b52',
+    },
+    poolCategory: PoolCategory.CORE,
+    tokenPerBlock: '0.9259',
+    version: 2,
+  },
+  {
+    sousId: 2,
+    stakingToken: spcTokens.wspc,
+    earningToken: spcTokens.wspc,
+    contractAddress: {
+      575757: '0x8794e93cBa74f24f5E6Aa7239353AD9b0603145c',
+    },
+    poolCategory: PoolCategory.CORE,
+    tokenPerBlock: '0.009259',
+    version: 2,
+  },
+  {
+    sousId: 3,
+    stakingToken: spcTokens.city,
+    earningToken: spcTokens.city,
+    contractAddress: {
+      575757: '0x0aFE24544E42e7A4F46156cd8E2F4dD14fFB2725',
+    },
+    poolCategory: PoolCategory.CORE,
+    tokenPerBlock: '0.000000000001',
+    version: 2,
+  }
+]
